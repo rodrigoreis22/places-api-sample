@@ -4,7 +4,7 @@
   "description": "Serverless webpack example using Typescript",
   "main": "handler.js",
   "scripts": {
-    "start": "FOURSQUARE_CLIENT_ID=LI5MR1JZRIMWY1ZSFABN1NCJ3E43MHQYE24A33RO3P325PF3 FOURSQUARE_CLIENT_SECRET=RG3XFZSL3LQBNUBNDLWTOZTLEHD2JGKEJJFPC44IIW4YMF0R sls offline",
+    "start": "FOURSQUARE_CLIENT_ID={CLIENT_ID} FOURSQUARE_CLIENT_SECRET={CLIENT_SECRET} sls offline",
     "test": "NODE_ENV=test && jest",
     "test-coverage": "NODE_ENV=test && jest --coverage"
   },
